@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-body{
-    
+
+body {
+
     background-color: hsl(233, 47%, 7%);
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,26 +14,29 @@ body{
 
 
 /* card */
-.card-section{
+.card-section {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
-    height:100vh ;
+    height: 100vh;
 }
-.card{
-    background-color:   hsl(244, 38%, 16%);
+
+.card {
+    background-color: hsl(244, 38%, 16%);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;;
+    justify-content: space-between;
+    ;
     height: auto;
     /* position: absolute; */
     /* min-width: none; */
 }
-.card-body{ 
+
+.card-body {
     width: 50%;
     height: 100% auto;
-    padding:50px ;
+    padding: 50px;
     /* flex-wrap: wrap; */
     display: flex;
     flex-direction: column;
@@ -39,58 +44,67 @@ body{
     font-family: 'Inter', sans-serif;
 
 }
-.card-body h3{
+
+.card-body h3 {
     font-size: 35px;
     font-weight: 700;
     text-transform: capitalize;
     text-align: center;
-    color:hsl(0, 0%, 100%) ;
+    color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
 }
-.card-body h3 span{
-    color:hsl(277, 64%, 61%);
+
+.card-body h3 span {
+    color: hsl(277, 64%, 61%);
 }
-.card-body p{
+
+.card-body p {
     color: hsla(0, 0%, 100%, 0.75);
     margin-top: 2rem;
 
 }
-.card-footer{
+
+.card-footer {
     color: hsla(0, 0%, 100%, 0.75);
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
 }
-.card-footer span{
+
+.card-footer span {
     font-size: 23px;
     margin-top: .7rem;
     font-weight: 700;
     text-transform: capitalize;
 }
-.card-footer small{
+
+.card-footer small {
     font-size: 15px;
     font-weight: 400;
 }
-.card-img{
+
+.card-img {
     width: 50%;
     position: relative;
     /* z-index: ; */
-    background-image: url('../img/image-header-desktop.jpg') ;
+    background-image: url('../img/image-header-desktop.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
-    
+    background-size: cover;
+
 }
+
 .card-img .mobile {
     display: none;
 }
-.alpha{
+
+.alpha {
     z-index: 100;
     width: 100%;
     height: 100%;
     background-color: rgba(102, 7, 154, 0.5);
     background-blend-mode: darken;
-    position: absolute;    
+    position: absolute;
 
-   
+
 }
