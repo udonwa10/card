@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
-    background-color: black;
+    
+    background-color: hsl(233, 47%, 7%);
+
 }
 *{
     margin: 0;
@@ -10,23 +12,27 @@ body{
 
 
 /* card */
-.card{
-    background-color:   hsl(233, 47%, 7%);
+.card-section{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
-    height: auto;
-    position: absolute;
-    top: 25%;
-    right: 25%;
-    left: 25%;
-    bottom: 25%;
+    align-items: center;
+    align-self: center;
+    height:100vh ;
 }
-.card-body{
+.card{
+    background-color:   hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;;
+    height: auto;
+    /* position: absolute; */
+    /* min-width: none; */
+}
+.card-body{ 
     width: 50%;
+    height: 100% auto;
     padding:50px ;
-    font-size: ;
+    /* flex-wrap: wrap; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,25 +63,22 @@ body{
 }
 .card-footer span{
     font-size: 23px;
-    font-weight: 400;
+    margin-top: .7rem;
+    font-weight: 700;
     text-transform: capitalize;
 }
 .card-footer small{
     font-size: 15px;
+    font-weight: 400;
 }
 .card-img{
     width: 50%;
     position: relative;
-    z-index: ;
+    /* z-index: ; */
     background-image: url('../img/image-header-desktop.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    
-}
-.card-img img{
-    width: 100%;
-    height: 100%;
+    background-size:cover;
     
 }
 .card-img .mobile {
@@ -87,8 +90,7 @@ body{
     height: 100%;
     background-color: rgba(102, 7, 154, 0.5);
     background-blend-mode: darken;
-    /* background-color: hsl(277, 64%, 62%) ; */
-
     position: absolute;    
+
    
 }
